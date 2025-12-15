@@ -139,7 +139,7 @@ namespace Interaction
             rectTransform.sizeDelta = new Vector2(400f, 60f);
 
             Text text = textObj.AddComponent<Text>();
-            text.font = Resources.GetBuiltinResource<Font>("Arial.ttf");
+            text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
             text.color = Color.white;
             text.alignment = TextAnchor.MiddleCenter;
             text.supportRichText = true;
