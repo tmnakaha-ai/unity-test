@@ -8,7 +8,7 @@ namespace Interaction
     {
         [SerializeField] private Camera playerCamera;
         [SerializeField] private float raycastDistance = 3f;
-        [SerializeField] private KeyCode interactKey = KeyCode.E;
+        [SerializeField] private KeyCode interactKey = KeyCode.Return;
         [SerializeField] private float messageDuration = 3f;
 
         private Text promptText;
