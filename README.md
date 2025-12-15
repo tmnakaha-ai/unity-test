@@ -15,3 +15,7 @@
 2. メニューから「File」→「Save」を実行し、シーンを保存します（例: `Assets/Scenes/Main.unity`）。
 3. 必要に応じて `GameManager` をシーン内の空の GameObject にアタッチします。
 4. エディタ上部の「Play」ボタンを押し、再生が始まることを確認します。
+
+## 使い方（インタラクション）
+- プレイヤーカメラに `PlayerInteractor` をアタッチすると、画面中央からの Raycast でインタラクションを検出し、E キーで説明文を表示します。
+- 調べたいオブジェクトには `Interactable` を追加し、Inspector で `Prompt Text`（表示される「調べる」などの文言）と `Description`（E キーで表示される説明文）を設定してください。
